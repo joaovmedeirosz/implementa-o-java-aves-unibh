@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.0">
+  <diagram name="DiagramaAves" id="-Vz6-iwXL4QTS7yw3QAj">
+    <mxGraphModel dx="1042" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ICnYG4afDQVsorgKth2p-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;&lt;interface&gt;&gt;&#xa;Animal&#xa;----------------&#xa;+ emitirSom()" vertex="1">
+          <mxGeometry height="100" width="180" x="50" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ICnYG4afDQVsorgKth2p-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;&lt;interface&gt;&gt;&#xa;Voador&#xa;----------------&#xa;+ voar()" vertex="1">
+          <mxGeometry height="100" width="180" x="400" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ICnYG4afDQVsorgKth2p-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;&lt;abstract&gt;&gt;&#xa;Ave&#xa;----------------&#xa;- comportamentoVoo : Voador&#xa;----------------&#xa;+ realizarVoo()" vertex="1">
+          <mxGeometry height="140" width="220" x="30" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="ICnYG4afDQVsorgKth2p-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Aguia" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="ICnYG4afDQVsorgKth2p-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Falcao" vertex="1">
+          <mxGeometry height="60" width="120" x="180" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="ICnYG4afDQVsorgKth2p-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Gaviao" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="ICnYG4afDQVsorgKth2p-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Galinha" vertex="1">
+          <mxGeometry height="60" width="120" x="460" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="ICnYG4afDQVsorgKth2p-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Avestruz" vertex="1">
+          <mxGeometry height="60" width="120" x="550" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="ICnYG4afDQVsorgKth2p-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="VooCurto" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ICnYG4afDQVsorgKth2p-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="VooLongo" vertex="1">
+          <mxGeometry height="60" width="120" x="470" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ICnYG4afDQVsorgKth2p-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="VooAguiaCareca" vertex="1">
+          <mxGeometry height="60" width="150" x="640" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ICnYG4afDQVsorgKth2p-12" edge="1" parent="1" source="ICnYG4afDQVsorgKth2p-3" style="endArrow=block;dashed=1;" target="ICnYG4afDQVsorgKth2p-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICnYG4afDQVsorgKth2p-13" edge="1" parent="1" source="ICnYG4afDQVsorgKth2p-3" style="endArrow=diamond;endFill=1;" target="ICnYG4afDQVsorgKth2p-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICnYG4afDQVsorgKth2p-14" edge="1" parent="1" source="ICnYG4afDQVsorgKth2p-4" style="endArrow=block;" target="ICnYG4afDQVsorgKth2p-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICnYG4afDQVsorgKth2p-15" edge="1" parent="1" source="ICnYG4afDQVsorgKth2p-5" style="endArrow=block;" target="ICnYG4afDQVsorgKth2p-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICnYG4afDQVsorgKth2p-16" edge="1" parent="1" source="ICnYG4afDQVsorgKth2p-6" style="endArrow=block;" target="ICnYG4afDQVsorgKth2p-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICnYG4afDQVsorgKth2p-17" edge="1" parent="1" source="ICnYG4afDQVsorgKth2p-7" style="endArrow=block;" target="ICnYG4afDQVsorgKth2p-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICnYG4afDQVsorgKth2p-18" edge="1" parent="1" source="ICnYG4afDQVsorgKth2p-8" style="endArrow=block;" target="ICnYG4afDQVsorgKth2p-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICnYG4afDQVsorgKth2p-19" edge="1" parent="1" source="ICnYG4afDQVsorgKth2p-9" style="endArrow=block;dashed=1;" target="ICnYG4afDQVsorgKth2p-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICnYG4afDQVsorgKth2p-20" edge="1" parent="1" source="ICnYG4afDQVsorgKth2p-10" style="endArrow=block;dashed=1;" target="ICnYG4afDQVsorgKth2p-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICnYG4afDQVsorgKth2p-21" edge="1" parent="1" source="ICnYG4afDQVsorgKth2p-11" style="endArrow=block;dashed=1;" target="ICnYG4afDQVsorgKth2p-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
